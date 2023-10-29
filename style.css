@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+    font-family: 'Cairo', sans-serif;
+}
+.container{
+position: relative;
+padding: 0 80px;
+}
+.header{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+.header img{
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+.header ul{
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    
+    
+}
+.header ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 20px;
+  
+    transition: 0.7s;
+}
+.header ul li:hover{
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.body .word{
+width: 60%;
+}
+.body .word h1{
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.body .word p{
+    color: #fff;
+    font-size: 20px;
+}
+.body .word button{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 18px;cursor: pointer;
+}
+.body .word button:hover{
+    color: black;
+    background-color: #fff;
+
+    
+}
+.body .cont-big-img{
+width: 40%;
+}
+.body .cont-big-img .big-img{
+    height: 300px;
+    margin: 30px 60px;
+}
+.footer{
+
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+}
+.footer .small-img{
+    height: 100px;
+   cursor: pointer;
+   transition: 0.5s;
+  
+}
+.footer .small-img:hover{
+    transform: scale(1.2);
+}
